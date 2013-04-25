@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Astropy4MPIK documentation build configuration file, created by
+# Python4Cardiff documentation build configuration file, created by
 # sphinx-quickstart on Sat Feb 26 13:39:46 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Astropy4MPIK'
+project = u'Python4Cardiff'
 copyright = u'2011, Smithsonian Astrophysical Observatory'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Astropy4MPIKdoc'
+htmlhelp_basename = 'Python4Cardiffdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -179,7 +179,7 @@ htmlhelp_basename = 'Astropy4MPIKdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Astropy4MPIK.tex', u'Astropy4MPIK Documentation',
+  ('index', 'Python4Cardiff.tex', u'Python4Cardiff Documentation',
    u'Tom Aldcroft, Brian Refsdal, Tom Robitaille', 'manual'),
 ]
 
@@ -212,6 +212,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'python4astronomers', u'Astropy4MPIK Documentation',
+    ('index', 'python4astronomers', u'Python4Cardiff Documentation',
      [u'Tom Aldcroft, Brian Refsdal, Tom Robitaille'], 1)
 ]

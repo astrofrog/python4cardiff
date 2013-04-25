@@ -21,11 +21,11 @@ Before you proceed
 ------------------
 
 If you have not already done so, download
-`this <http://mpia.de/~robitaille/python/astropy4mpik.tar.gz>`_ file and then
+`this <http://mpia.de/~robitaille/python/python4cardiff.tar.gz>`_ file and then
 expand it and go into this directory::
 
-    tar xvzf astropy4mpik.tar.gz
-    cd astropy4mpik
+    tar xvzf python4cardiff.tar.gz
+    cd python4cardiff
 
 Then start up IPython with the ``--pylab`` option to enable easy plotting::
 
@@ -215,7 +215,7 @@ Note about FITS tables
     
 In Astropy 0.2, FITS tables cannot be read/written directly from the ``Table``
 class. To create a ``Table`` object from a FITS table, you can use
-``astropy.io.fits`` to `read in the table to a Numpy array <https://python4mpik.readthedocs.org/en/latest/fits.html#accessing-tabular-data>`_, then initialize the
+``astropy.io.fits`` to `read in the table to a Numpy array <https://python4cardiff.readthedocs.org/en/latest/fits.html#accessing-tabular-data>`_, then initialize the
 table with it::
 
     >>> from astropy.io import fits

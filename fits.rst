@@ -21,11 +21,11 @@ Before you proceed
 ------------------
 
 If you have not already done so, download
-`this <http://mpia.de/~robitaille/python/astropy4mpik.tar.gz>`_ file and then
+`this <http://mpia.de/~robitaille/python/python4cardiff.tar.gz>`_ file and then
 expand it and go into this directory::
 
-    tar xvzf astropy4mpik.tar.gz
-    cd astropy4mpik
+    tar xvzf python4cardiff.tar.gz
+    cd python4cardiff
 
 Then start up IPython with the ``--pylab`` option to enable easy plotting::
 

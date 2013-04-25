@@ -34,11 +34,8 @@ and data types) are already known.
    emergency_install
    running
    types
-   fits
-   wcs
-   tables
-   units
-   coordinates
+   astropy
+   aplpy
 
 Acknowledgments
 ---------------
