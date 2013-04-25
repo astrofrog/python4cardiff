@@ -1,7 +1,11 @@
 APLpy
 ======
 
-`APLpy <http://aplpy.github.com>`_ (the Astronomical Plotting Library in Python) is a Python module aimed at producing publication-quality plots of astronomical imaging data in FITS format. It effectively provides a layer on top of Matplotlib to enable plotting of Astronomical images, and allows users to:
+`APLpy <http://aplpy.github.com>`_ (the Astronomical Plotting Library in
+Python) is a Python module aimed at producing publication-quality plots of
+astronomical imaging data in FITS format. It effectively provides a layer on
+top of Matplotlib to enable plotting of Astronomical images, and allows users
+to:
 
 * Make plots interactively or using scripts
 * Show grayscale, colorscale, and 3-color RGB images of FITS files
@@ -20,22 +24,21 @@ APLpy
 Documentation
 -------------
 
-The APLpy `Documentation <http://aplpy.github.com/documentation/index.html>`_ contains all the information needed to run APLpy successfully. The most important page is the `Quick Reference Guide <http://aplpy.github.com/documentation/quick_reference.html>`_ which provides concise instructions for all of the APLpy functions. In particular, note that the interface to APLpy is slightly different to Matplotlib, so not all Matplotlib commands will work in APLpy. Be sure to check out the quick reference guide!
-
-When things go wrong
---------------------
-
-* If you have issues with the installation, either send an email to the
-  python@mpia.de mailing list, or contact the authors directly at
-  astropython@gmail.com.
-
-* If you run into what you believe is a bug, please report it at the GitHub
-  `Issue Tracker <https://github.com/aplpy/aplpy/issues>`_.
+The APLpy `Documentation <http://aplpy.github.com/documentation/index.html>`_
+contains all the information needed to run APLpy successfully. The most
+important page is the `Quick Reference Guide
+<http://aplpy.readthedocs.org/en/v0.9.9/quick_reference.html>`_ which provides
+concise instructions for all of the APLpy functions. In particular, note that
+the interface to APLpy is slightly different to Matplotlib, so not all
+Matplotlib commands will work in APLpy. Be sure to check out the quick
+reference guide!
 
 Getting started
 ---------------
 
-Start off by downloading :download:`this tar file <APLpy-example.tar>`, expand it, and go to the ``APLpy-example`` directory on the command line. Then, launch pylab::
+Start off by downloading :download:`this tar file <APLpy-example.tar>`, expand
+it, and go to the ``APLpy-example`` directory on the command line. Then,
+launch pylab::
 
     $ ipython --pylab
 
@@ -47,11 +50,16 @@ And create a new figure to plot the FITS file with::
 
     f = aplpy.FITSFigure('ngc2264_cutout.fits')
 
-This should open up a matplotlib window and will show an empty set of axes with coordinates. From now on, you will interact with the figure by calling methods associated with ``f``. For example, show the image as a grayscale::
+This should open up a matplotlib window and will show an empty set of axes
+with coordinates. From now on, you will interact with the figure by calling
+methods associated with ``f``. For example, show the image as a grayscale::
 
     f.show_grayscale()
 
-The automatic settings for the stretch should be decent, but there are of course options to allow custom min/max levels. You can now try panning around and zooming in like you would do in Matplotlib, and you will notice the coordinates updating. Press the Home button to reset the view.
+The automatic settings for the stretch should be decent, but there are of
+course options to allow custom min/max levels. You can now try panning around
+and zooming in like you would do in Matplotlib, and you will notice the
+coordinates updating. Press the Home button to reset the view.
 
 Next, let's overlay a set of contours from a different image::
 
@@ -65,11 +73,14 @@ And finally let's add a scalebar to make the plot look sciency::
 
     f.add_scalebar(0.03, '0.5pc', color='white')
 
-We can now save our masterpiece either by clicking on the Save icon in the matplotlib window, or doing::
+We can now save our masterpiece either by clicking on the Save icon in the
+matplotlib window, or doing::
 
     f.save('my_first_plot.eps')
 
-The latter is recommended because it will automatically figure out the best resolution with which to output your plot. Your plot should look something like this:
+The latter is recommended because it will automatically figure out the best
+resolution with which to output your plot. Your plot should look something
+like this:
 
 .. image:: aplpy_example.png
 

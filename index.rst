@@ -32,8 +32,8 @@ Topics
    :maxdepth: 1
 
    emergency_install
-   introduction
-   astronomy
+   scientific/introduction
+   astronomy/astronomy
 
 Acknowledgments
 ---------------
