@@ -69,12 +69,11 @@ or::
     >>> 3 / 2.
     1.5
 
-Lists, tuples, and sets
------------------------
+Lists
+-----
 
-There are two types of sequences that appear similar at first glance, both of which can contain inhomogeneous data types:
 
-* Lists (``list``)::
+Lists are sequences that can contain inhomogeneous data types:
 
     >>> l = [4, 5.5, "spam"]
     >>> l[0]
@@ -84,33 +83,7 @@ There are two types of sequences that appear similar at first glance, both of wh
     >>> l[2]
     'spam'
 
-* Tuples (``tuple``)::
-
-    >>> t = (4, 5.5, "spam")
-    >>> t[0]
-    4
-    >>> t[1]
-    5.5
-    >>> t[2]
-    'spam'
-
-The difference between these two types is that lists are mutable, and tuples are immutable::
-
-    >>> l[0] = 3
-    >>> l.append('egg')  # For a full list of methods, type l. then press TAB!
-    >>> l.insert(3,'spam')
-    >>> l
-    [3, 5.5, 'spam', 'spam', 'egg']
-
-    >>> t[0] = 3
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: 'tuple' object does not support item assignment
-
-There are reasons why tuples are a useful feature (faster and `hashable
-<http://docs.python.org/glossary.html#term-hashable>`_ are the two main ones), but for now, it's enough for you to know there is such a difference.
-
-One useful operation with lists and tuples is ``+``, which can be used for concatenation::
+One useful operation with lists is ``+``, which can be used for concatenation::
 
     >>> [1,2,3] + [4,5,6]
     [1, 2, 3, 4, 5, 6]
@@ -123,22 +96,13 @@ Lists can be *sliced*, meaning that we extract a chunk from the list::
     >>> a = ['spam', 'egg', 'bacon']
     >>> a[0:2]
     ['spam', 'egg']
+    
+Appending items to a list is also easy::
 
-Sets (``set``) are a third type of sequence which you can make from a tuple or a list::
-
-    >>> set([1, 2, 3, 2, 'spam', 'egg', 'spam'])
-    set([1, 2, 3, 'egg', 'spam'])
-
-Note that duplicate items have been removed. This is the mathematical definition of a set, i.e. a collection of *distinct* objects. The order of the objects is arbitrary (order is not preserved). Various operators can be used to represent set operations::
-
-    >>> set([1,2,3]) - set([3,4])
-    set([1, 2])
-
-    >>> set([1,2,3]) & set([3,4])
-    set([3])
-
-    >>> set([1,2,3]) | set([3,4])
-    set([1, 2, 3, 4])
+    >>> a = [1, 4, 3]
+    >>> a.append(5)
+    >>> a
+    [1, 4, 3, 5]
 
 Strings
 -------
@@ -171,14 +135,14 @@ You can access individual characters or chunks of characters::
     >>> s[9:13]
     'spam'
 
-Note that strings are immutable (like tuples), that is you cannot change the value of certain characters without creating a new string::
+Note that strings are immutable, that is you cannot change the value of certain characters without creating a new string::
 
     >>> s[5] = 'r'
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     TypeError: 'str' object does not support item assignment
 
-As for lists, and tuples, concatenation is done with ``+``::
+As for lists, concatenation is done with ``+``::
 
     >>> "hello," + " " + "world!"
     'hello, world!'

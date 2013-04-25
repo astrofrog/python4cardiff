@@ -158,7 +158,7 @@ or to just get the numerical value::
 
 .. admonition::  Level 3
 
-    Try and convert 3 Angstroms to keV using the units framework. You will need
+    Try and convert 250 microns to Ghz using the units framework. You will need
     to look through the documentation for `astropy.units <http://docs.astropy.org/en/v0.2/units/index.html>`_ to see how this can be made to work.
 
 .. raw:: html
@@ -167,12 +167,12 @@ or to just get the numerical value::
 
 ::
 
-    >>> (3 * u.angstrom).to(u.keV)
+    >>> (250 * u.micron).to(u.GHz)
     ...
-    UnitsException: 'angstrom' (length) and 'keV' (energy) are not convertible
+    UnitsException: 'micron' (length) and 'GHz' (frequency) are not convertible
 
-    >>> (3 * u.angstrom).to(u.keV, equivalencies=u.spectral())
-    <Quantity 4.13280643067 keV>
+    >>> (250. * u.micron).to(u.GHz, equivalencies=u.spectral())
+    Out[5]: <Quantity 1199.169832 GHz>
 
 .. raw:: html
 

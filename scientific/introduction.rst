@@ -8,4 +8,5 @@ Introduction to Scientific Python
    types
    control_flow
    numpy
+   scipy
    matplotlib

@@ -1,8 +1,9 @@
 Numpy basics
 ============
 
-Before going further on the spectral extraction project we need to learn about
-a few key features of Numpy.
+Numpy is a package that allows us to create multi-dimensional arrays, and a
+large fraction of Numpy is written in C, providing very fast array operations
+within Python.
 
 Making arrays
 -------------
@@ -118,10 +119,11 @@ The ">>>" indicates the input to Python::
    array([[ 1,  2],
           [ 6,  7],
           [11, 12]])
-          
-          
+
 Numpy arrays vs Python lists
 ----------------------------
+
+The main differences between Numpy arrays and Python lists are the following:
 
     * Python lists can contain anything, including other lists, objects, or
       complex data structures.

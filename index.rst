@@ -6,9 +6,10 @@ Cardiff University Python Workshop
 The scope of the workshop is not to give a complete introduction to Python,
 but instead to make you familiar with the basics of Python, numerical
 analysis, plotting, and Astronomy packages, so that you can directly use it in
-your work/research. The functionality is presented in such a way that
-beginners in Python should be able to follow, but please ensure that you have
-a functional Python distribution installed prior to the workshop.
+your work/research, and hopefully learn more! The functionality is presented
+in such a way that beginners in Python should be able to follow, but please
+ensure that you have a functional Python distribution installed prior to the
+workshop.
 
 Schedule
 --------
