@@ -4,7 +4,7 @@ Optional: Emergency Installation
 If you already have a Scientific Python distribution, but not Astropy and APLpy, just do::
 
     pip install astropy
-    pip insall aplpy
+    pip install aplpy
 
 If you have *not* previously installed a Scientific Python distribution, use the
 following instructions for an EMERGENCY scientific Python install :-)
