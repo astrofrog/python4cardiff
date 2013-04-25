@@ -15,21 +15,7 @@ Documentation
 -------------
 
 For more information about the features presented below, you can read the
-`astropy.table <http://docs.astropy.org/en/v0.2/table/index.html>`_ docs.
-
-Before you proceed
-------------------
-
-If you have not already done so, download
-`this <http://mpia.de/~robitaille/python/astropy4cardiff.tar.gz>`_ file and then
-expand it and go into this directory::
-
-    tar xvzf astropy4cardiff.tar.gz
-    cd astropy4cardiff
-
-Then start up IPython with the ``--pylab`` option to enable easy plotting::
-
-    ipython --pylab
+`astropy.table <http://docs.astropy.org/en/v0.2.1/table/index.html>`_ docs.
 
 Constructing and Manipulating tables
 ------------------------------------
@@ -332,7 +318,7 @@ Practical Exercises
 
     Try and write out the ROSAT catalog into a format that you can read into
     another software package (see `here
-    <http://docs.astropy.org/en/v0.2/table/io.html>`_ for more details). For
+    <http://docs.astropy.org/en/v0.2.1/table/io.html>`_ for more details). For
     example, try and write out the catalog into CSV format, then read it into
     a spreadsheet software package (e.g. Excel, Google Docs, Numbers,
     OpenOffice).

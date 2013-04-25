@@ -5,7 +5,7 @@ Documentation
 -------------
 
 For more information about the features presented below, you can read the
-`astropy.units <http://docs.astropy.org/en/v0.2/units/index.html>`_ docs.
+`astropy.units <http://docs.astropy.org/en/v0.2.1/units/index.html>`_ docs.
 
 Representing units and quantities
 ----------------------------------
@@ -96,7 +96,7 @@ Using physical constants
 ------------------------
 
 The `astropy.constants
-<http://docs.astropy.org/en/v0.2/constants/index.html>`_ module contains
+<http://docs.astropy.org/en/v0.2.1/constants/index.html>`_ module contains
 physical constants relevant for Astronomy, and these are defined with units
 attached to them using the ``astropy.units`` framework. If we want to compute
 the Gravitational force felt by a 100. * u.kg space probe by the Sun, at a
@@ -112,7 +112,7 @@ distance of 3.2au, we can do::
     >>> F.to(u.N)
     <Quantity 0.05792707869188191 N>
 
-The full list of available physical constants is shown `here <http://docs.astropy.org/en/v0.2/constants/index.html#module-astropy.constants>`_ (and additions are welcome!).
+The full list of available physical constants is shown `here <http://docs.astropy.org/en/v0.2.1/constants/index.html#module-astropy.constants>`_ (and additions are welcome!).
 
 Practical Exercises
 -------------------
@@ -159,7 +159,7 @@ or to just get the numerical value::
 .. admonition::  Level 3
 
     Try and convert 250 microns to Ghz using the units framework. You will need
-    to look through the documentation for `astropy.units <http://docs.astropy.org/en/v0.2/units/index.html>`_ to see how this can be made to work.
+    to look through the documentation for `astropy.units <http://docs.astropy.org/en/v0.2.1/units/index.html>`_ to see how this can be made to work.
 
 .. raw:: html
 

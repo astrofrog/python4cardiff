@@ -17,21 +17,7 @@ Documentation
 -------------
 
 For more information about the features presented below, you can read the
-`astropy.wcs <http://docs.astropy.org/en/v0.2/wcs/index.html>`_ docs.
-
-Before you proceed
-------------------
-
-If you have not already done so, download
-`this <http://mpia.de/~robitaille/python/astropy4cardiff.tar.gz>`_ file and then
-expand it and go into this directory::
-
-    tar xvzf astropy4cardiff.tar.gz
-    cd astropy4cardiff
-
-Then start up IPython with the ``--pylab`` option to enable easy plotting::
-
-    ipython --pylab
+`astropy.wcs <http://docs.astropy.org/en/v0.2.1/wcs/index.html>`_ docs.
 
 Data
 ----

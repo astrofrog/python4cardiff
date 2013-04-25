@@ -5,7 +5,7 @@ Documentation
 -------------
 
 For more information about the features presented below, you can read the
-`astropy.coordinates <http://docs.astropy.org/en/v0.2/coordinates/index.html>`_ docs.
+`astropy.coordinates <http://docs.astropy.org/en/v0.2.1/coordinates/index.html>`_ docs.
 
 Representing and converting coordinates
 ---------------------------------------
