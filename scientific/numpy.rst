@@ -125,10 +125,10 @@ Numpy arrays vs Python lists
 
 The main differences between Numpy arrays and Python lists are the following:
 
-    * Python lists can contain anything, including other lists, objects, or
-      complex data structures.
-    * When you slice a Python list it returns a copy, whereas slicing a Numpy
-      array returns a reference
-    * Vector math does not work on lists. For example, multiplying a list by
-      an int ``n`` gives ``n`` copies of the list, adding another list
-      concatentates, and multiplying by a float gives an error.
+* Python lists can contain anything, including other lists, objects, or
+  complex data structures.
+* When you slice a Python list it returns a copy, whereas slicing a Numpy
+  array returns a reference
+* Vector math does not work on lists. For example, multiplying a list by
+  an int ``n`` gives ``n`` copies of the list, adding another list
+  concatentates, and multiplying by a float gives an error.

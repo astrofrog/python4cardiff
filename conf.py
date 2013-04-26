@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Python4Cardiff'
-copyright = u'2011, Smithsonian Astrophysical Observatory'
+copyright = u'2013, Thomas Robitaille'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

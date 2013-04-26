@@ -35,6 +35,7 @@ Topics
    emergency_install
    scientific/introduction
    astronomy/astronomy
+   learning
 
 Acknowledgments
 ---------------
